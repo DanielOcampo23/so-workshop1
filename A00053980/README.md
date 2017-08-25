@@ -33,5 +33,12 @@ Mediante este taller estudiaremos algunos directorios y archivos mas importantes
 ### 5.  
 
 ## Referencias
+http://www.mancera.org/2011/06/26/%C2%BFque-contiene-cada-carpeta-de-linux/
+
+http://www.rinconsolidario.org/linux/cursoLinux/comoUsarLinux/directorios/directorios.html
+
+https://computernewage.com/2015/06/14/el-arbol-de-directorios-de-linux-al-detalle-que-contiene-cada-carpeta/
+
+https://github.com/ICESI/all-workshops/blob/master/2017_b/so/workshop1/README.md
 
 https://github.com/ICESI/so-commands/tree/master/centos7
