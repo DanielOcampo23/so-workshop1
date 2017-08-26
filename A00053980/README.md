@@ -54,7 +54,7 @@ El comando ```printenv``` sirve para mostrar la lista de variables de ambiente d
 
 Para que las variables de ambiente sean permanentes en el sistema se ejecuta de la siguiente manera ```sed '$ a export VARIABLE=DANIEL' /etc/profile``` siguiente a esto se reinicia el sistema para revisar si la variable queda permanente 
 
-![GitHub Logo2](Captura de pantalla de 2017-08-25 21-31-42.png)  
+![GitHub Logo2](foto.png)  
 
 ## Referencias
 http://www.mancera.org/2011/06/26/%C2%BFque-contiene-cada-carpeta-de-linux/
