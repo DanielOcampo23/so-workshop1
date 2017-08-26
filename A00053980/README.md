@@ -14,13 +14,21 @@ Mediante este taller estudiaremos algunos directorios y archivos mas importantes
 | usr   |   games   | En la carpeta "usr" se encuentran la mayoria de los archivos de un sistema Linux, como ejecutables, documentación, etc... Un ejemplo de esto, es la carpeta "games" en donde claramente se encuentran todos los ejecutables de los juegos del sistema como por ejemplo ```espdiff```, ```gnome-mahjongg```, ```gnome-mines```, ```gnome-sudoku```,   ```sl```, ```sl-h```, ```sol``` .|
 | bin   |   sleep , cat  | En la carpeta "bin" se encuentran los Ejecutables (o binarios) básicos del sistema, cuando, por ejemplo ejecutamos el comando cp en realidad ejecutamos /bin/cp. El archivo ejemplo dentro de esta carpeta es ```sleep``` como lo indica su nombre "duerme" el sistema durante los segundos que le indique el usuario. También se encuentra el archivo ```cat``` que es usado muy usualmente por los usuarios que utilizan linux y sirve para mostrar el contenido de un archivo en la misma terminal si necesidad de utilizar ningun editor de texto. | 
 | home   | daniel  | En la carpeta "home" se encuentran todas las carpetas de cada usuario del sistema por ejemplo en mi caso en particular se encuentra la carpeta "daniel" en la cual se encuentran todas mis carpetas como "Documentos", "Descargas", etc..  |
-| tmp   |   |   |
+| tmp   |  --- | En la carpeta "tmp" como su abreviación lo menciona es una carpeta temporal, por esta razón los archivos que se agregan en esta carpeta se eliminan cuando se apaga y se vuelve a prender el sistema  |
 | etc   |  group, protocols  | En la carpeta "etc" se encuentran los archivos básicos de configuracin, en donde podemos encontrar el archivo ```group``` el cual es una lista de grupos del sistema, y también podemos encontrar ```protocols``` el cual también es una lista de protocolos de internet que soporta la maquina.     |
-| root   |   |   |
-| boot   |   |   |
-| lib   |   |   |
-| var   |   |   |
-| media   |   |   |
+| root   |  --- | Esta es la carpeta privada del root, aquí puede guardar los archivos personales.  |
+| boot   |  abi-4.4.0-31-generic |  Archivos estáticos utilizados por el cargador de arranque(boot-loader) del sistema.  |
+| lib   | init/stab |  Estos ficheros contienen código que compartirán muchos programas. En lugar de que cada programa contenga una copia propia de las rutinas compartidas, éstas son guardadas en este fichero. Esto hace que los programas ejecutables sean menores y reduce el espacio usado en disco. |
+| var   |  spool/mail   | Este directorio contiene información temporal de los programas (lo cual no implica que se pueda borrar su contenido) , por ejemplo spool/mail como veiamos en clase allí llegan los correos de las personas que trataron a acceder a un usuario no permitido |
+| media   | ----  |  Puntos de montaje para dispositivos de medios, como son las unidades lectoras de discos compactos  |
+| dev   | cpu_dma_latency  | Contiene archivos especiales del sistema, conocidos como controladores de dispositivo (device drivers), los cuales se usan para acceder a los dispositivos del sistema y recursos, como discos duros, modems, memoria, etc.  |
+| opt   | google/chrome | Aplicaciones adicionales  |
+| mnt   |  --- | Sistemas de archivos montados manualmente en el disco duro  |
+| proc   |  bus | Información del sistema usada por el kernel. Por ejemplo ```bus``` Información sobre los buses instalados|
+| run   |  docker | Está diseñado para permitir que las aplicaciones puedan almacenar los datos que se requieran para operar  |
+| srv   | --- | Puede contener archivos que se sirven a otros sistemas  |
+| sys   |  kernel |  Al igual que /proc, contiene archivos virtuales que proveen información del kernel relativa a eventos del sistema operativo. Es en cierto modo una evolución de /proc, y a diferencia de este último, los archivos se distribuyen de forma jerárquica. |
+
 
 
 
