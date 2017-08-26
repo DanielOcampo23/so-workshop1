@@ -50,9 +50,9 @@ Mediante este taller estudiaremos algunos directorios y archivos mas importantes
 
 ### 3.  
 
-El comando ```printenv``` sirve para mostrar la lista de variables de ambiente del sistema, con el comando "export" podemos agregar variables de ambiente a esta lista que aparece con el comando ```printenv``` un ejemplo de esto es ```export VARIABLE=DANIEL```
+El comando ```printenv``` sirve para mostrar la lista de variables de ambiente del sistema, con el comando "export" podemos agregar variables de ambiente a esta lista que aparece con el comando ```printenv``` un ejemplo de esto es ```export VARIABLEDEAMBIENTE=danielOcampo```
 
-Para que las variables de ambiente sean permanentes en el sistema se ejecuta de la siguiente manera ```sed '$ a export VARIABLE=DANIEL' /etc/profile``` siguiente a esto se reinicia el sistema para revisar si la variable queda permanente 
+Para que las variables de ambiente sean permanentes en el sistema se ejecuta de la siguiente manera ```sed '$ a export VARIABLEDEAMBIENTE=danielOcampo' /etc/profile``` siguiente a esto se reinicia el sistema para revisar si la variable queda permanente 
 
 ![GitHub Logo2](foto.png)  
 
