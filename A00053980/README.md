@@ -37,6 +37,10 @@ Mediante este taller estudiaremos algunos directorios y archivos mas importantes
 
 ### 2.  
 ### 3.  
+
+El comando ```printenv``` sirve para mostrar la lista de variables de ambiente del sistema, con el comando "export" podemos agregar variables de ambiente a esta lista que aparece con el comando ```printenv``` un ejemplo de esto es ```export VARIABLE=DANIEL```
+
+
 ### 4.  
 ### 5.  
 
