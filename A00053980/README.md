@@ -38,13 +38,13 @@ Mediante este taller estudiaremos algunos directorios y archivos mas importantes
 | cp | root | Copia un archivo de un directorio a otro  |
 | logout | root | cierra la sesión   |
 | reboot | root | Reinicia el sistema  |
-| logout | root | cierra la sesión   |
-| logout | root | cierra la sesión   |
-| logout | root | cierra la sesión   |
-| logout | root | cierra la sesión   |
-| logout | root | cierra la sesión   |
-| logout | root | cierra la sesión   |
-| logout | root | cierra la sesión   |
+| tree | root | Muestra los directorios y los ficheros en forma de arbol comenzando por la raíz (carpeta en donde esta parado el usuario)  |
+| rar a fichero.rar | root | crea un fichero "rar" llamado "fichero.rar" |
+| find [patron] | root | Busca las coincidencias con el patron dentro del directorio y sus subdirectorios  |
+| rm -r | root | Eliminar un directorio recursivamente  |
+| date | root |  Muestra la hora y la fecha en formato completo  |
+| clear | root | limpia todos los comandos escritos en la teminal  |
+| reset | root | reinicia la terminal  |
 
 
 
